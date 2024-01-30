@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatein - Property</title>
+
+    <!-- ==================== Favicon ====================== -->
+    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+
+    <!-- ==================== Box icon ===================== -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- ==================== Font Awesome ================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ==================== Remixicon ==================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/65b2c3948d261e1b5f580356/1hl14nviv';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- ==================== styles css =================== -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/properties.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <div class="loader__bg">
+        <div  id="loader" class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img src="../images/favicon.svg" alt="">
+                Estatein
+            </a>
+
+            <ul class="nav-links">
+                <i class="ri-close-line navCloseBtn"></i>
+
+                <li><a class="link" href="../index.html">Home</a></li>
+                <li><a class="link" href="../About/about.html">About Us</a></li>
+                <li><a class="link active" href="#">Properties</a></li>
+                <li><a class="link" href="../Services/services.html">Services</a></li>
+                <li><a class="link" href="../contact/contact.html">Contact Us</a></li>
+            </ul>
+
+            <i class="ri-menu-4-line navOpenBtn"></i>
+        </nav>
+    </header>
+
+    <div class="property__bg">
+        <div class="text__wrapper">
+            <div>
+                <h2 class="property__title">Find Your Dream Property</h2>
+                <p class="property__text">
+                    Welcome to Estatein, where your dream property awaits in every corner of our beautiful world.
+                    Explore our curated selection of properties, each offering a unique story and a chance to redefine
+                    your life. With categories to suit every dreamer, your journey
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="choose__bg">
+
+            <div class="select__bg">
+                <i class="ri-map-pin-2-fill location"></i>
+                <div class="select__line"></div>
+                <select name="Location" class="locat">
+                    <option> Location</option>
+                    <option>Andijon</option>
+                    <option>Buxoro</option>
+                    <option>Farg'ona</option>
+                    <option>Jizzax</option>
+                    <option>Xorazm</option>
+                    <option>Namangan</option>
+                    <option>Navoiy</option>
+                    <option>Qashqadaryo</option>
+                    <option>Samarqand</option>
+                    <option>Qashqadaryo</option>
+                    <option>Sirdaryo</option>
+                    <option>Surxandaryo</option>
+                    <option>Toshkent</option>
+                </select>
+            </div>
+
+            <div class="select__bg">
+                <i class="ri-building-line location"></i>
+                <div class="select__line"></div>
+                <select name="Location" class="locat">
+                    <option>Property Type</option>
+                    <option>Seaside Serenity Villa</option>
+                    <option>Metropolitan Haven</option>
+                    <option>Rustic Retreat Cottage</option>
+                    <option>Seaside Serenity Villa</option>
+                    <option>Rustic Retreat Cottage</option>
+                    <option>Seaside Serenity Villa</option>
+                    <option>Metropolitan Haven</option>
+                    <option>Seaside Serenity Villa</option>
+                    <option>Rustic Retreat Cottage</option>
+
+                </select>
+            </div>
+
+            <div class="select__bg">
+                <i class="ri-money-dollar-box-fill location "></i>
+                <div class="select__line"></div>
+                <select name="Location" class="locat">
+                    <option>Pricing Range</option>
+                    <option>$200,000</option>
+                    <option>$250,000</option>
+                    <option>$350,000</option>
+                    <option>$500,000</option>
+                    <option>$550,000</option>
+                    <option>$650,000</option>
+                    <option>$770,000</option>
+                    <option>$800,000</option>
+                    <option>$1,250,000</option>
+
+                </select>
+            </div>
+
+            <div class="select__bg">
+                <i class='bx bx-cube location'></i>
+                <div class="select__line"></div>
+                <select name="Location" class="locat">
+                    <option>Pricing Range</option>
+                    <option>200,000</option>
+                    <option>250,000</option>
+                    <option>350,000</option>
+                    <option>450,000</option>
+                    <option>500,000</option>
+                    <option>550,000</option>
+                    <option>650,000</option>
+                    <option>770,000</option>
+                    <option>800,000</option>
+
+                </select>
+            </div>
+
+            <div class="select__bg">
+                <i class='bx bxs-calendar location'></i>
+                <div class="select__line"></div>
+                <select name="Location" class="locat">
+                    <option>Build Year</option>
+                    <option>2018</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2019</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="swiper">
+
+            <div class="card__content">
+                <div class="card__container swiper-wrapper">
+
+                    <div class="card swiper-slide">
+                        <img src="../images/img1.png" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$550,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/img2.png" alt="" class="product__img">
+                        <h4 class="card__title">Metropolitan Haven</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$650,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/img3.png" alt="" class="product__img">
+                        <h4 class="card__title">Rustic Retreat Cottage</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$550,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/vert2.jpg" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$680,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/vert3.jpg" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$700,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/home-bg2.jpg" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$750,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/home-bg5.jpg" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$780,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <img src="../images/home-bg4.jpg" alt="" class="product__img">
+                        <h4 class="card__title">Seaside Serenity Villa</h4>
+                        <p class="card__text">A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban
+                            neighborhood.
+                        </p>
+
+                        <div class="price">
+                            <div>
+                                <p class="price__title">Price</p>
+                                <h5 class="price__count">$850,000</h5>
+                            </div>
+                            <a href="../View/view.html">
+                                <button class="view__button"> View Property Details </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+
+
+        </div>
+
+        <div>
+            <img src="../images/star.png" alt="" class="main__star">
+            <h1 class="section__title">Our Values</h1>
+            <p class="section__text">Our story is one of continuous growth and evolution. We started as a small
+                team
+                with big dreams, determined to create a real estate platform that transcended the ordinary.
+            </p>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="form">
+            <div class="row1">
+                <input type="hidden" name="access_key" value="f1c3fd08-a647-4292-8607-985ff38b5c46">
+
+                <input name="name" type="text" class="name__input" placeholder="Enter First Name" required>
+                <input name="last name" type="text" class="name__input" placeholder="Enter Last Name" required>
+                <input name="email" type="email" class="name__input" placeholder="Enter your Email" required>
+                <input name="Phone" type="number" class="number__input" placeholder="Enter Phone Number" required>
+            </div>
+            <textarea name="text" class="textarea" cols="30" rows="10" placeholder="Enter your Message here.."></textarea>
+
+
+            <div class="button__wrapper">
+                <div class="checkbox-wrapper">
+                    <label class="check" for="cbk1-65" required>
+                        <input type="checkbox" id="cbk1-65" required>
+                        <span class="cbx" aria-required="alert-danger ">
+                            <svg width="12px" height="11px" viewBox="0 0 12 11">
+                                <polyline points="1 6.29411765 4.5 10 11 1"></polyline>
+                            </svg>
+                        </span>
+                        <span>I agree with Terms of Use and Privacy Policy</span>       
+                    </label>
+                </div>
+    
+                <button class="btn">
+                    <span class="btn-text-one">Send Your Message </span>
+                    <span class="btn-text-two">Continue ...</span>
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="start__bg">
+        <div class="text__wrapper">
+            <div>
+                <h2 class="start__title">Start Your Real Estate Journey Today</h2>
+                <p class="start__text">
+                    Your dream property is just a click away. Whether you're looking for a new home, a strategic
+                    investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take
+                    the first step towards your real estate goals and explore our available properties or get in touch
+                    with our team for personalized assistance.
+                </p>
+            </div>
+
+            <a href="../View/view.html"><button class="explore__btn"> Explore Properties </button></a>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer__container">
+
+            <div class="footer__wrapper">
+                <div>
+                    <a href="#">
+                        <h4><img src="../images/favicon.svg" alt="logo"> Estatein</h4>
+                    </a>
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="footer__form">
+                        <input type="hidden" name="access_key" value="f1c3fd08-a647-4292-8607-985ff38b5c46">
+                        <i class="ri-mail-send-line email__icon"></i>
+                        <input type="email" name="email" placeholder="Enter Your Email" class="contact-inputs" required>
+                        <button class="send__btn">
+                            <div class="svg-wrapper">
+                                <i class="ri-send-plane-fill svg"></i>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <h4 class="home__title">Home</h4>
+                        <ul class="footer__list-item">
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Hero Section</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Properties</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Testimonials</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">FAQ’s</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="home__title">About Us</h4>
+                        <ul class="footer__list-item">
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Our Story</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Our Works</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">How It Works</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Our Team</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Our Clients</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="home__title">Properties</h4>
+                        <ul class="footer__list-item">
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Portfolio</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Categories</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="home__title">Services</h4>
+                        <ul class="footer__list-item">
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Valuation Mastery</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Strategic Marketing</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Negotiation Wizardry</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Closing Success</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Property Management</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="home__title">Contact Us</h4>
+                        <ul class="footer__list-item">
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Contact Form</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="#" class="footer__link">Our Offices</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="bg__end">
+        <div class="social__wrapper">
+
+            <h4 class="end__title">@2024 Estatein. All Rights Reserved.</h4>
+
+            <div class="social">
+                <a target="_blank" class="socialContainer containerOne" href="https://www.instagram.com/">
+                    <i class="ri-instagram-line socialSvg"></i>
+                </a>
+
+                <a target="_blank" class="socialContainer containerTwo" href="https://www.facebook.com/?locale=ru_RU">
+                    <i class="ri-facebook-fill socialSvg facebookSvg"></i>
+                </a>
+
+                <a target="_blank" class="socialContainer containerFour" href="https://twitter.com/?lang=ru">
+                    <i class="ri-twitter-fill socialSvg"></i>
+                </a>
+
+                <a target="_blank" class="socialContainer containerThree" href="https://ru.linkedin.com/">
+                    <i class="ri-linkedin-fill socialSvg"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+
+
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./Js/swiper-bundle.min.js"></script>
+
+    <!-- ============== index Js =============== -->
+    <script src="./Js/properties.js"></script>
+</body>
+
+</html>
